@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.tatoc.javascript.NewTest">
+        <methods>
+          <include name="click_Tatoc_Link"/>
+          <include name="testHomePageTitle"/>
+          <include name="dragandDrop"/>
+          <include name="launchPopupwindow"/>
+          <include name="clickBasicCourse"/>
+          <include name="clickGreenbox"/>
+          <include name="loadDrivers"/>
+          <include name="changeBoxcolor"/>
+          <include name="cookieGeneration"/>
+        </methods>
+      </class> <!-- com.tatoc.javascript.NewTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
